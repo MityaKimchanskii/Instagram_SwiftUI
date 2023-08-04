@@ -10,17 +10,33 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            Text("feed")
+            Text("Feed")
+                .tabItem {
+                    Image(systemName: "house")
+                }
             
-            Text("feed")
+            Text("Search")
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                }
             
-            Text("feed")
+            Text("Upload")
+                .tabItem {
+                    Image(systemName: "plus.square")
+                }
             
-            Text("feed")
+            Text("Notifications")
+                .tabItem {
+                    Image(systemName: "heart")
+                }
             
-            Text("feed")
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person")
+                }
             
         }
+        .accentColor(.black)
     }
 }
 

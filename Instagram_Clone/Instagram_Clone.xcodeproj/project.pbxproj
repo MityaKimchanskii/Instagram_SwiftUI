@@ -12,6 +12,8 @@
 		3BC35FCD2A7B653C0052B4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC35FCC2A7B653C0052B4F4 /* Assets.xcassets */; };
 		3BC35FD02A7B653C0052B4F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC35FCF2A7B653C0052B4F4 /* Preview Assets.xcassets */; };
 		3BC35FE42A7B66D60052B4F4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC35FE32A7B66D60052B4F4 /* MainTabView.swift */; };
+		3BF911092A7CC898009E98FE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF911082A7CC898009E98FE /* ProfileView.swift */; };
+		3BF9110C2A7CCE0A009E98FE /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9110B2A7CCE0A009E98FE /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3BC35FCC2A7B653C0052B4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC35FCF2A7B653C0052B4F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BC35FE32A7B66D60052B4F4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3BF911082A7CC898009E98FE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3BF9110B2A7CCE0A009E98FE /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,7 @@
 		3BC35FD92A7B65580052B4F4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3BC35FE02A7B65EF0052B4F4 /* New Group */,
+				3BF9110A2A7CCDDC009E98FE /* Components */,
 				3BC35FDB2A7B65A00052B4F4 /* Authentication */,
 				3BC35FDC2A7B65B10052B4F4 /* Feed */,
 				3BC35FDD2A7B65B90052B4F4 /* Profile */,
@@ -134,6 +138,7 @@
 		3BC35FDD2A7B65B90052B4F4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3BF911082A7CC898009E98FE /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -152,13 +157,6 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
-		3BC35FE02A7B65EF0052B4F4 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		3BC35FE12A7B65F20052B4F4 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +170,14 @@
 			children = (
 			);
 			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		3BF9110A2A7CCDDC009E98FE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9110B2A7CCE0A009E98FE /* UserStatView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF911092A7CC898009E98FE /* ProfileView.swift in Sources */,
 				3BC35FCB2A7B653A0052B4F4 /* ContentView.swift in Sources */,
 				3BC35FC92A7B653A0052B4F4 /* Instagram_CloneApp.swift in Sources */,
+				3BF9110C2A7CCE0A009E98FE /* UserStatView.swift in Sources */,
 				3BC35FE42A7B66D60052B4F4 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
